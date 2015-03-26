@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minWidth="-Infinity" prefHeight="270.0" prefWidth="397.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="33.0" layoutY="40.0" prefWidth="130.0" text="Descrição:" textAlignment="RIGHT" />
+      <TextField fx:id="descricao" layoutX="175.0" layoutY="33.0" />
+      <TextField fx:id="preco" layoutX="175.0" layoutY="78.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="85.0" prefWidth="130.0" text="Preço:" textAlignment="RIGHT" />
+      <Separator layoutY="182.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefWidth="397.0" />
+      <Button layoutX="269.0" layoutY="212.0" mnemonicParsing="false" onAction="#handlerSalvar" prefWidth="100.0" text="Salvar" />
+      <Button layoutX="150.0" layoutY="212.0" mnemonicParsing="false" onAction="#handlerLimpar" prefWidth="100.0" text="Limpar" />
+      <Label alignment="CENTER_RIGHT" layoutX="34.0" layoutY="130.0" prefWidth="130.0" text="Endereço imagem:" textAlignment="RIGHT" />
+      <TextField fx:id="imagem" layoutX="175.0" layoutY="125.0" />
+   </children>
+</AnchorPane>
